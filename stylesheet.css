@@ -1,0 +1,41 @@
+.navbar-brand {
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  align-self: center;
+  padding-top: 30px;
+}
+
+.petsdiv {
+  padding-top: 100px;
+}
+
+
+
+div h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 500px){
+  #main::before {
+    content: "a couple of our favorite moments";
+  }
+}
+
+@media (max-width: 499px){
+  #main::before {
+    content: "some favorite moments";
+  }
+}
+
+@media (max-width: 575px){
+  div h2 {
+    padding-top: 20px;
+  }
+}
